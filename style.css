@@ -1,0 +1,341 @@
+
+body {
+    background: #f9f9f9;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+  
+  .card {
+    background: #ffffff;
+    padding: 40px 30px;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    width: 280px;
+  }
+  
+  .avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    margin: 10px 0 5px;
+    font-size: 22px;
+    color: #333;
+  }
+  
+  .title {
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .desc {
+    font-size: 13px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .social-icons a img {
+    width: 28px;
+    height: 28px;
+    transition: opacity 0.3s ease;
+  }
+  
+  .social-icons a img:hover {
+    opacity: 0.7;
+  }
+  body {
+    background: #f9f9f9;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  .card {
+    background: #ffffff;
+    padding: 40px 30px;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    width: 280px;
+    animation: fadeSlideUp 1s ease forwards;
+    transform: translateY(50px);
+    opacity: 0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  }
+  
+  @keyframes fadeSlideUp {
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .avatar:hover {
+    transform: scale(1.1);
+  }
+  
+  h1 {
+    margin: 10px 0 5px;
+    font-size: 22px;
+    color: #333;
+  }
+  
+  .title {
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .desc {
+    font-size: 13px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .social-icons a img {
+    width: 28px;
+    height: 28px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+  
+  .social-icons a img:hover {
+    transform: scale(1.2);
+    opacity: 0.7;
+  }
+  .avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.7); /* SHADOW warna HITAM */
+  }
+  
+  .avatar:hover {
+    transform: scale(1.1);
+  }
+  body {
+    font-family: sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 16px;
+    padding: 30px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    text-align: center;
+    max-width: 350px;
+  }
+  
+  .profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  }
+  
+  .profile-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  h2 {
+    margin: 10px 0 5px;
+  }
+  
+  .job {
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    color: #555;
+    font-size: 14px;
+  }
+  
+  .social-icons {
+    margin-top: 15px;
+  }
+  
+  .social-icons i {
+    font-size: 24px;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  /* Menu gesek */
+  .menu-scroll {
+    margin-top: 30px;
+    display: flex;
+    overflow-x: auto;
+    gap: 12px;
+    padding-bottom: 10px;
+    scrollbar-width: none;
+  }
+  
+  .menu-scroll::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .menu-item {
+    min-width: 100px;
+    padding: 10px 15px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .menu-item:hover {
+    transform: scale(1.05);
+  }
+/* Animasi fade-in */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Menu berbaris ke bawah + efek animasi */
+.menu-scroll {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.menu-item {
+  width: 200px;
+  padding: 10px 15px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: transform 0.2s;
+  animation: fadeIn 0.8s ease forwards;
+  opacity: 0; /* Awalnya transparan */
+}
+
+/* Supaya animasi bertahap satu-satu */
+.menu-item:nth-child(1) {
+  animation-delay: 0.2s;
+}
+.menu-item:nth-child(2) {
+  animation-delay: 0.4s;
+}
+.menu-item:nth-child(3) {
+  animation-delay: 0.6s;
+}
+.menu-item:nth-child(4) {
+  animation-delay: 0.8s;
+}
+.menu-item:nth-child(5) {
+  animation-delay: 1s;
+}
+.menu-item:nth-child(6) {
+  animation-delay: 1.2s;
+}
+.menu-item:hover {
+  transform: scale(1.05);
+}
+  /* Animasi hover untuk link Instagram dan TikTok */
+.menu-scroll a.menu-item {
+  text-decoration: none;
+  color: inherit;
+  transition: background-color 0.3s, transform 0.3s, color 0.3s;
+}
+
+/* Instagram hover */
+.menu-scroll a.menu-item[href*="instagram.com"]:hover {
+  background-color: #E1306C;
+  color: #fff;
+  transform: scale(1.05);
+}
+
+/* TikTok hover */
+.menu-scroll a.menu-item[href*="tiktok.com"]:hover {
+  background-color: #69C9D0;
+  color: #fff;
+  transform: scale(1.05);
+}
+/* Animasi saat ditekan (klik) */
+.menu-item:active,
+a.menu-item:active {
+  transform: scale(0.95);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+.menu-item.active,
+a.menu-item.active {
+  background-color: #333;
+  color: #fff;
+  border-left: 5px solid #ff5e57; /* Garis di kiri */
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  transform: scale(1.03);
+}
+.menu-item,
+a.menu-item {
+  transition: all 0.3s ease;
+}

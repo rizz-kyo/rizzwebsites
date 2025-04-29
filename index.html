@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>websites rizz</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome untuk ikon -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <div class="card">
+    <div class="profile-img">
+      <img src="image/pp tabel.jpg" alt="Profile">
+    </div>
+    <h2>Rizz kyozoura</h2>
+    <p class="job">Pelajar / GYM</p>
+    <p class="description">
+      Perkenalkan nama gw rizz, gw seorang pelajar gw masih berumur 17th.
+    </p>
+    <div class="social-icons">
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-tiktok"></i>
+    </div>
+  </div>
+
+  <!-- Menu gesek -->
+<div class="menu-scroll">
+  <div class="menu-item"><a href="portofolio.html" target="_blank">About Me</a></div>
+  <div class="menu-item"><a href="https://wa.me/yourphonenumber" target="_blank">Saluran Wa</a></div>
+  <div class="menu-item"><a href="https://chat.whatsapp.com/HDAqksNHyHD1dENXWwzthI" target="_blank">Grup Whatssap</a></div>
+  <div class="menu-item"><a href="https://chat.whatsapp.com/HDAqksNHyHD1dENXWwzthI" target="_blank">Grup Discord</a></div>
+</div>
+      <!-- Instagram link -->
+  <a class="menu-item" href="https://www.instagram.com/rizzkunnz_?igsh=MXZpMmYybjI1MzNpZQ==" target="_blank">
+    <i class="fa-brands fa-instagram"></i>My Instagram
+  </a>
+  <br>
+  <!-- TikTok link -->
+  <a class="menu-item" href="https://www.tiktok.com/@rizzz_aja1" target="_blank">
+    <i class="fa-brands fa-tiktok"></i> My TikTok
+  </a>
+  </div>
+
+  <script>
+    // Ambil semua elemen menu
+    const menuItems = document.querySelectorAll('.menu-item');
+  
+    menuItems.forEach(item => {
+      item.addEventListener('click', () => {
+        // Hapus class 'active' dari semua menu
+        menuItems.forEach(el => el.classList.remove('active'));
+  
+        // Tambahkan class 'active' ke yang diklik
+        item.classList.add('active');
+      });
+    });
+  </script>
+</body>
+</html>
